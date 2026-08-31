@@ -29,7 +29,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-6xl sm:text-8xl md:text-9xl font-black tracking-tighter text-white mb-6 select-none relative"
         >
-          <span className="block glow-pink drop-shadow-[0_0_50px_rgba(255,42,95,0.4)]">
+          <span className="block drop-shadow-[0_0_35px_rgba(255,42,95,0.2)]">
             EUPHORIA
           </span>
           <span className="block text-stroke text-4xl sm:text-6xl md:text-7xl font-mono tracking-widest opacity-80 mt-[-10px]">

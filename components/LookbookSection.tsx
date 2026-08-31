@@ -23,12 +23,12 @@ export default function LookbookSection() {
       </div>
 
       {/* Grid gallery */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {LOOKBOOK_IMAGES.map((img, idx) => (
           <div
             key={idx}
             onClick={() => setActiveImage(img.url)}
-            className="group relative aspect-[3/4] rounded-lg overflow-hidden bg-neutral-900 border border-white/5 cursor-pointer shadow-xl hover:border-brand-highlight/40 transition-all duration-500"
+            className="group relative aspect-[4/3] rounded-lg overflow-hidden bg-neutral-900 border border-white/5 cursor-pointer"
           >
             <Image
               src={img.url}

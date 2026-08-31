@@ -29,115 +29,85 @@ export const BRAND_INFO = {
 export const PRODUCTS: Product[] = [
   {
     id: "eu-01",
-    name: "RAW EDGE CYBER HOODIE",
+    name: "CYBER-DISTORTION HOODIE",
     category: "HOODIES",
     price: "€110",
-    description: "Heavyweight 480GSM French Terry cotton hoodie with custom hand-distressed raw seams, acid washed finish, and screenprinted cyberpunk graphics.",
+    description: "Heavyweight 480GSM French Terry cotton hoodie with raw distressed seams and screenprinted cyberpunk graphics.",
     details: ["Handcrafted distress treatment", "Custom oversized boxy cut", "Thumbhole cuffs", "Made in Hungary"],
     isNew: true,
-    image: "/clothing/item_01.png"
+    image: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: "eu-02",
-    name: "DISTRESSED LOGO TEE",
+    name: "RAW EDGE LOGO TEE",
     category: "TEES",
     price: "€55",
-    description: "Vintage washed 260GSM organic cotton shirt featuring custom acid wash finish and handmade raw neck hem.",
+    description: "Vintage washed 260GSM organic cotton shirt featuring acid wash finish and handmade raw neck hem.",
     details: ["100% Organic Cotton", "Vintage acid wash finish", "Screen-printed front logo", "Handmade in Budapest"],
     isNew: true,
-    image: "/clothing/item_02.png"
+    image: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: "eu-03",
-    name: "INDUSTRIAL ZIP HOODIE",
+    name: "EXPERIMENTAL INDUSTRIAL ZIP",
     category: "HOODIES",
     price: "€135",
-    description: "Asymmetric full-zip hoodie with silver metal hardware accents, double layered hood, and reinforced patches.",
+    description: "Asymmetric full-zip hoodie with metal hardware accents and reinforced elbow patches.",
     details: ["Custom silver zipper pulls", "Oversized double hood", "Heavy brushed fleece interior"],
     isNew: false,
-    image: "/clothing/item_03.png"
+    image: "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: "eu-04",
-    name: "HANDMADE UTILITY BEANIE",
+    name: "DISTRESSED UTILITY BEANIE",
     category: "ACCESSORIES",
     price: "€40",
-    description: "Chunky knit beanie with hand-distressed detailing, raw fraying, and signature metal tag logo.",
+    description: "Chunky knit beanie with hand-distressed detailing and signature metal tag logo.",
     details: ["100% Heavy Merino Wool", "Hand-distressed finish", "Unisex fit"],
     isNew: false,
-    image: "/clothing/item_04.png"
+    image: "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: "eu-05",
-    name: "ARCHIVAL REWORKED DENIM",
+    name: "1-OF-1 ARCHIVAL DENIM JACKET",
     category: "EXCLUSIVES",
     price: "€220",
-    description: "Exclusive handmade 1-of-1 custom patched denim jacket featuring reworked vintage fabrics and hand-stitched details.",
+    description: "Exclusive handmade custom patched denim jacket featuring reworked vintage fabrics.",
     details: ["One of one unique creation", "Hand-stitched patches", "Heavy Japanese selvedge denim"],
     isNew: true,
-    image: "/clothing/item_05.png"
+    image: "https://images.unsplash.com/photo-1578932750294-f5075e85f44a?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: "eu-06",
-    name: "SLEEVE GRAPHIC LONG SLEEVE",
+    name: "UNDERGROUND GRAPHIC LONG SLEEVE",
     category: "TEES",
     price: "€65",
-    description: "Sleeve-printed heavy long sleeve tee with custom sleeve thumb cuffs and high-density puff print.",
+    description: "Sleeve-printed heavy long sleeve tee with custom sleeve thumb cuffs.",
     details: ["High density puff print", "Ribbed collar and cuffs", "Garment dyed black"],
     isNew: false,
-    image: "/clothing/item_06.png"
-  },
-  {
-    id: "eu-07",
-    name: "EXPERIMENTAL CUT SWEATSHIRT",
-    category: "HOODIES",
-    price: "€105",
-    description: "Custom cropped heavyweight crewneck sweatshirt with raw frayed hem and distressing.",
-    details: ["450GSM Cotton", "Hand-cropped distressed hem", "Drop shoulder boxy silhouette"],
-    isNew: true,
-    image: "/clothing/item_07.png"
-  },
-  {
-    id: "eu-08",
-    name: "UNDERGROUND OVERSIZED TEE",
-    category: "TEES",
-    price: "€50",
-    description: "Heavy 280GSM cotton boxy tee with high density print and raw edge sleeves.",
-    details: ["280GSM Heavy Cotton", "Custom oversized cut", "Made in Hungary"],
-    isNew: false,
-    image: "/clothing/item_08.png"
+    image: "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&q=80&w=1000"
   }
 ];
 
 export const LOOKBOOK_IMAGES = [
   {
-    url: "/clothing/item_09.png",
+    url: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=1000",
     title: "DROP 01 - BUDAPEST STREETS",
     subtitle: "Shot by Abel H & Yuno Igore"
   },
   {
-    url: "/clothing/item_10.png",
+    url: "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&q=80&w=1000",
     title: "HANDMADE EXPERIMENTS",
     subtitle: "Designed by @tino_sk8z"
   },
   {
-    url: "/clothing/item_11.png",
+    url: "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=80&w=1000",
     title: "INDUSTRIAL SILHOUETTES",
     subtitle: "Designed by @frigyes_varga"
   },
   {
-    url: "/clothing/item_12.png",
+    url: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=1000",
     title: "RAW ARCHIVE 2026",
     subtitle: "Euphoria Clothing Hungary"
-  },
-  {
-    url: "/clothing/item_13.png",
-    title: "1-OF-1 CUSTOM CUTS",
-    subtitle: "Hand-distressed in Budapest"
-  },
-  {
-    url: "/clothing/item_14.png",
-    title: "UNDERGROUND CULTURE",
-    subtitle: "Euphoria Hungary"
   }
 ];
