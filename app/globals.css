@@ -1,17 +1,17 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@layer base {
-  :root {
-    --background: #08080a;
-    --foreground: #f3f3f3;
-  }
+:root {
+  --background: #08080a;
+  --foreground: #f3f3f3;
+}
 
-  body {
-    color: var(--foreground);
-    background: var(--background);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    overflow-x: hidden;
-  }
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  overflow-x: hidden;
 }
 
 /* Custom scrollbar */
@@ -63,28 +63,6 @@
   color: transparent;
 }
 
-/* Custom Utilities for Underground Theme */
-.bg-brand-dark {
-  background-color: #08080a;
-}
-
-.bg-brand-card {
-  background-color: #121216;
-}
-
-.text-brand-highlight {
-  color: #ff2a5f;
-}
-
-.bg-brand-highlight {
-  background-color: #ff2a5f;
-}
-
-.border-brand-highlight {
-  border-color: #ff2a5f;
-}
-
-/* Hover Glow & Glassmorphism */
 .glass-panel {
   background: rgba(18, 18, 22, 0.7);
   backdrop-filter: blur(12px);
