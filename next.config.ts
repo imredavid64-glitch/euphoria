@@ -9,9 +9,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  turbopack: {
-    root: "/Users/imredavid/Documents/Euphoria",
-  },
 };
 
 export default nextConfig;

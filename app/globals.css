@@ -1,18 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-:root {
-  --background: #08080a;
-  --foreground: #f3f3f3;
-}
+@layer base {
+  :root {
+    --background: #08080a;
+    --foreground: #f3f3f3;
+  }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
-  cursor: default;
+  body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    overflow-x: hidden;
+  }
 }
 
 /* Custom scrollbar */
@@ -59,12 +58,39 @@ body {
   100% { transform: translate(5%, 0); }
 }
 
-.text-glitch {
-  position: relative;
-  display: inline-block;
+.text-stroke {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.25);
+  color: transparent;
 }
 
-.text-stroke {
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
-  color: transparent;
+/* Custom Utilities for Underground Theme */
+.bg-brand-dark {
+  background-color: #08080a;
+}
+
+.bg-brand-card {
+  background-color: #121216;
+}
+
+.text-brand-highlight {
+  color: #ff2a5f;
+}
+
+.bg-brand-highlight {
+  background-color: #ff2a5f;
+}
+
+.border-brand-highlight {
+  border-color: #ff2a5f;
+}
+
+/* Hover Glow & Glassmorphism */
+.glass-panel {
+  background: rgba(18, 18, 22, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glow-pink {
+  box-shadow: 0 0 35px rgba(255, 42, 95, 0.25);
 }
